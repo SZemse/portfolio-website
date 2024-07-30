@@ -1,0 +1,99 @@
+{
+  "Header.Item1": "About Me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Skills",
+  "Header.Item5": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "Shivani Zemse Resume.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I'm interested in <span class='underline'>Full Stack Development, Data Science</span> and <span class='underline'>AI/ML</span> technologies",
+  "Banner.ActionBtn": "Say Hi",
+
+  "AboutMe.Title": "About Me",
+  "AboutMe.Paragraphs": [
+    "I'm an incoming grad student at <span class='underline'>Syracuse University</span> and a software engineer with <span class='underline'>3+ years of experience</span> developing full-stack solutions. I'm interested in <span class='underline'>web development, data science</span> and <span class='underline'>AI/ML technologies</span>. I am dedicated to writing clean, scalable and reusable code, following best practices and standards.",
+    "I completed my Bachelor's in Engineering in Information Technology from University of Mumbai, India and since then I have been working with TCS as a software engineer.",
+    "My interests lies in building beautiful applications and creating scalable solutions."
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "TCS",
+      "FullName":"Tata Consultancy Services",
+      "Title": "System Engineer",
+      "Date": "November 2020 - July 2024",
+      "Description": [
+        "Developing backednd middleware using microservices architectures using Rest APIs and Spring Boot",
+        "Led the development of invoice processing automation system using Python Django for backend Rest APIs, UiPath for on-screen processing and Azure AI Vision/ Document Intelligence for OCR",
+        "Created a Java-based module for report delivery by generating automated mails",
+        "Built and integrated high-performance, re-usable web components using Angular Material "
+      ]
+    },
+    {
+      "Tab": "RIL",
+      "FullName":"Reliance Industries Limited",
+      "Title": "Web Development Intern",
+      "Date": "June 2019 - July 2019",
+      "Description": [
+        "Developed a feature for an e-commerce application using Node.js as a backend framework and MongoDB for data storage.",
+        "Created and integrated webpages for e-commerce website using Angular to enhance user experience"
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My Projects",
+  "FeatureProjects.Label": "Highlighted Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Sentimental Analysis of Drug Reviews",
+      "Description": "Created scripts for scraping the data from web to create a drug review database. Conducted <span class='underline'>emotional analysis</span> on the data to understand the drug effectiveness by training it using <span class='underline'>Recurrent Neural Network</span> algorithms. ",
+      "imgs": [
+        "assets/images/project1/project1.png"
+      ],
+      "Technologies": ["Python3", "Flask", "NLTK", "Pandas", "Keras", "TensorFlow"]
+    },
+    {
+      "Title": "Super Store Dashboard",
+      "Description": "Dashboard for tracking the store performance based on various parameters. It provides feature like analysis of <span class='underline'>region-wise profits, most profitable items</span> and <span class='underline'>employee performance</span>",
+      "imgs": [
+        "assets/images/project2/project2.png"
+      ],
+      "Technologies": ["Angular", "HTML/CSS", "Angular Material", "Python", "Pandas"]
+    }
+  ],
+
+  "OtherProjects.Title": "Skills",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Languages",
+      "Description": "Extended rock-paper-scissors game. A personal project developed in Angular where you play randomly against the machine. It features the use of services, interfaces, and components.",
+      "imgs": ["assets/images/hands-game.png"],
+      "ghLink": "https://github.com/andresjosehr/hands-game",
+      "demoLink": "https://projects.andresjosehr.com/hands-game",
+      "Technologies": ["Java", "Python", "HTML/CSS", "Javascript", "Bash"]
+    },
+    {
+      "Title": "Technologies & Frameworks",
+      "Description": "Interface that consumes a countries API where you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
+      "imgs": ["assets/images/countries-viewer.png"],
+      "ghLink": "https://github.com/andresjosehr/countries-viewer",
+      "demoLink": "https://projects.andresjosehr.com/countries-viewer",
+      "Technologies": ["Spring Boot", "Django", "Angular", "Flask", "Angular Material", "Node.js", "Maven", "Bootstrap", "Junit5"]
+    },
+    {
+      "Title": "Applications",
+      "Description": "A single page with a minimalist design listing 4 features in 4 cards. Entry animations are used with Angular animations.",
+      "ghLink": "https://github.com/andresjosehr/four-card-feature-section",
+      "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
+      "Technologies": ["Redis", "PostgreSQL", "MongoDB", "MySQL", "UiPath", "Azure", "Git", "Jenkins", "Jupyter", "Eclipse"]
+    }
+  ],
+
+  "Contact.Pretitle": "Contact",
+  "Contact.Title": "Say Hi!",
+  "Contact.Content": "I woul love to connect and collaborate with you.",
+  "Contact.Btn": "LinkedIn"
+}
