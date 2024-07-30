@@ -5,7 +5,7 @@ import { ArchiveComponent } from './components/archive/archive.component';
 
 const routes: Routes = [
 
-  {path: '',      component: HomeComponent},
+  {path: ':language?',      component: HomeComponent},
   
   // {path: 'profile'        ,   component: ProfileComponent         , canActivate: [AuthGuard]},
   // {path: 'users'          ,   component: UsersComponent           , canActivate: [AuthGuard]},
